@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "Blank Template",
+    "name": "Be The Hero",
     "slug": "mobile",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,10 +19,15 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
+    "android": {
+      "package": "com.Guiiih.BeTheHeros",
+      "versionCode": 1
+    },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.Guiiih.BeTheHeros",
       "supportsTablet": true
     }
   }
