@@ -34,12 +34,12 @@ export default function Register() {
       const response = await api.post('ongs', data)
 
       alertify
-  .alert(`Yeah! Obrigado por se cadastar em nosso sistema! Aqui está o seu ID de acesso: ${response.data.id} 🦸‍♂️`, function(){
+  .alert(`Obrigado por se cadastar em nosso sistema! Aqui está o seu ID de acesso: ${response.data.id}`, function(){
   });
 
     history.push('/')
     } catch (err) {
-      alertify.error('Ih, acho que o Superman encostou em uma Kryptonita! Teve um erro no cadastro, tente novamente.')
+      alertify.error('Teve um erro no cadastro, tente novamente.')
     }
   }
 
